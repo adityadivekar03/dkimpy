@@ -287,7 +287,7 @@ class DKIM(object):
   #: 
   #: The short list below is the result more of instinct than logic.
   #: @since: 0.5
-  FROZEN = (b'from',b'date',b'subject')
+  FROZEN = (b'message-id',b'date',b'from',b'to' ,b'subject')
 
   #: The rfc4871 recommended header fields to sign
   #: @since: 0.5
